@@ -15,7 +15,7 @@ public class helloServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().println("hello servlet : il est "+ new Date());
+		response.getWriter().println("hello NEW servlet : il est "+ new Date());
 	}
 
 	/**
