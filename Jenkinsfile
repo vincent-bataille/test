@@ -7,11 +7,11 @@ pipeline {
     }}
     stage('build') {
       steps {
-        echo "tesing..."
+        echo "building..."
     }}
     stage('deploy') {
       steps {
-        echo "tesing..."
+        echo "deploying..."
     }}
   }
 }
