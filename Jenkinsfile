@@ -16,9 +16,9 @@ pipeline {
         }
       }
     }
-    stage('deploy') {
+    stage('deploy to test') {
       steps {
-        echo "deploying..."
+        build job: 'deploy-test'
     }}
   }
 }
