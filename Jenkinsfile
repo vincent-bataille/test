@@ -16,6 +16,10 @@ pipeline {
         }
       }
     }
+    stage('package') {
+      steps {
+        build job: 'package'
+    }}
     stage('deploy to test') {
       steps {
         build job: 'deploy-test'
